@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="1" total="13" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="15467" started-at="2018-12-04T21:15:16Z" finished-at="2018-12-04T21:15:32Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="15467" started-at="2018-12-04T21:15:16Z" finished-at="2018-12-04T21:15:32Z">
+      <class name="TESTCASES.AppDataProvider">
+        <test-method status="PASS" signature="loginTest(java.lang.String)[pri:0, instance:TESTCASES.AppDataProvider@61832929]" name="loginTest" duration-ms="4" started-at="2018-12-04T21:15:19Z" data-provider="getdata" finished-at="2018-12-04T21:15:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mike]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="loginTest(java.lang.String)[pri:0, instance:TESTCASES.AppDataProvider@61832929]" name="loginTest" duration-ms="1" started-at="2018-12-04T21:15:19Z" data-provider="getdata" finished-at="2018-12-04T21:15:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[smith]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="loginTest(java.lang.String)[pri:0, instance:TESTCASES.AppDataProvider@61832929]" name="loginTest" duration-ms="1" started-at="2018-12-04T21:15:19Z" data-provider="getdata" finished-at="2018-12-04T21:15:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tom]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="logintest2(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TESTCASES.AppDataProvider@61832929]" name="logintest2" duration-ms="1" started-at="2018-12-04T21:15:19Z" data-provider="getdata2" finished-at="2018-12-04T21:15:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username-1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password-1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[phone-1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[browser-1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest2 -->
+        <test-method status="PASS" signature="logintest2(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TESTCASES.AppDataProvider@61832929]" name="logintest2" duration-ms="1" started-at="2018-12-04T21:15:19Z" data-provider="getdata2" finished-at="2018-12-04T21:15:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username-2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password-2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[phone-2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[browser-2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest2 -->
+        <test-method status="PASS" signature="logintest2(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TESTCASES.AppDataProvider@61832929]" name="logintest2" duration-ms="1" started-at="2018-12-04T21:15:19Z" data-provider="getdata2" finished-at="2018-12-04T21:15:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username-3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password-3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[phone-3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[browser-3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest2 -->
+      </class> <!-- TESTCASES.AppDataProvider -->
+      <class name="TESTCASES.AppBeforeAfterTest">
+        <test-method status="PASS" signature="LoginTest()[pri:0, instance:TESTCASES.AppBeforeAfterTest@4501b7af]" name="LoginTest" is-config="true" duration-ms="0" started-at="2018-12-04T21:15:16Z" finished-at="2018-12-04T21:15:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:TESTCASES.TaskDataProvider@523884b2]" name="openBrowser" is-config="true" duration-ms="2659" started-at="2018-12-04T21:15:16Z" finished-at="2018-12-04T21:15:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:TESTCASES.TaskDataProvider@523884b2]" name="closeBrowser" is-config="true" duration-ms="88" started-at="2018-12-04T21:15:31Z" finished-at="2018-12-04T21:15:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="PasswordChange()[pri:0, instance:TESTCASES.AppBeforeAfterTest@4501b7af]" name="PasswordChange" is-config="true" duration-ms="0" started-at="2018-12-04T21:15:31Z" finished-at="2018-12-04T21:15:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PasswordChange -->
+      </class> <!-- TESTCASES.AppBeforeAfterTest -->
+      <class name="TESTCASES.TaskDataProvider">
+        <test-method status="PASS" signature="logintest(java.lang.String, java.lang.String)[pri:0, instance:TESTCASES.TaskDataProvider@523884b2]" name="logintest" duration-ms="4943" started-at="2018-12-04T21:15:19Z" data-provider="getdata" finished-at="2018-12-04T21:15:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tutorial]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tutorial]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="FAIL" signature="logintest(java.lang.String, java.lang.String)[pri:0, instance:TESTCASES.TaskDataProvider@523884b2]" name="logintest" duration-ms="7728" started-at="2018-12-04T21:15:24Z" data-provider="getdata" finished-at="2018-12-04T21:15:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"name","selector":"passCount"}
+  (Session info: chrome=71.0.3578.80)
+  (Driver info: chromedriver=2.44.609545 (c2f88692e98ce7233d2df7c724465ecacfe74df5),platform=Mac OS X 10.14.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'Edils-MacBook-Pro.local', ip: '2603:300a:16aa:1000:0:0:0:d041%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.44.609545 (c2f88692e98ce7..., userDataDir: /var/folders/ph/jt2rfx9j0zx...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64964}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 71.0.3578.80, webStorageEnabled: true}
+Session ID: 675587915800b20ea4c4a9fc2b84402a
+*** Element info: {Using=name, value=passCount}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"name","selector":"passCount"}
+  (Session info: chrome=71.0.3578.80)
+  (Driver info: chromedriver=2.44.609545 (c2f88692e98ce7233d2df7c724465ecacfe74df5),platform=Mac OS X 10.14.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'Edils-MacBook-Pro.local', ip: '2603:300a:16aa:1000:0:0:0:d041%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.44.609545 (c2f88692e98ce7..., userDataDir: /var/folders/ph/jt2rfx9j0zx...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64964}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 71.0.3578.80, webStorageEnabled: true}
+Session ID: 675587915800b20ea4c4a9fc2b84402a
+*** Element info: {Using=name, value=passCount}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+at org.openqa.selenium.By$ByName.findElement(By.java:284)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at TESTCASES.TaskDataProvider.isElementPresent(TaskDataProvider.java:60)
+at TESTCASES.TaskDataProvider.logintest(TaskDataProvider.java:40)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+      </class> <!-- TESTCASES.TaskDataProvider -->
+      <class name="TESTCASES.App">
+        <test-method status="PASS" signature="LoginTest()[pri:0, instance:TESTCASES.App@26653222]" name="LoginTest" duration-ms="1" started-at="2018-12-04T21:15:31Z" finished-at="2018-12-04T21:15:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method status="PASS" signature="LogoutTest()[pri:0, instance:TESTCASES.App@26653222]" name="LogoutTest" duration-ms="1" started-at="2018-12-04T21:15:31Z" finished-at="2018-12-04T21:15:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutTest -->
+        <test-method status="PASS" signature="PasswordChange()[pri:0, instance:TESTCASES.App@26653222]" name="PasswordChange" duration-ms="1" started-at="2018-12-04T21:15:31Z" finished-at="2018-12-04T21:15:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PasswordChange -->
+      </class> <!-- TESTCASES.App -->
+      <class name="TESTCASES.AppAssertions">
+        <test-method status="FAIL" signature="RegisterTest()[pri:0, instance:TESTCASES.AppAssertions@3532ec19]" name="RegisterTest" duration-ms="2" started-at="2018-12-04T21:15:31Z" finished-at="2018-12-04T21:15:31Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [yahoo] but found [yahoo1],
+expected [c] but found [a]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [yahoo] but found [yahoo1],
+expected [c] but found [a]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+at TESTCASES.AppAssertions.RegisterTest(AppAssertions.java:39)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterTest -->
+      </class> <!-- TESTCASES.AppAssertions -->
+      <class name="TESTCASES.AppBeforeAfterSuit">
+        <test-method status="PASS" signature="beforeSuit()[pri:0, instance:TESTCASES.AppBeforeAfterSuit@28d25987]" name="beforeSuit" is-config="true" duration-ms="8" started-at="2018-12-04T21:15:16Z" finished-at="2018-12-04T21:15:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuit -->
+        <test-method status="PASS" signature="beforeSuit()[pri:0, instance:TESTCASES2.AppSkipTest@59fa1d9b]" name="beforeSuit" is-config="true" duration-ms="0" started-at="2018-12-04T21:15:16Z" finished-at="2018-12-04T21:15:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuit -->
+        <test-method status="PASS" signature="afterSuit()[pri:0, instance:TESTCASES.AppBeforeAfterSuit@28d25987]" name="afterSuit" is-config="true" duration-ms="0" started-at="2018-12-04T21:15:32Z" finished-at="2018-12-04T21:15:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuit -->
+        <test-method status="PASS" signature="afterSuit()[pri:0, instance:TESTCASES2.AppSkipTest@59fa1d9b]" name="afterSuit" is-config="true" duration-ms="0" started-at="2018-12-04T21:15:32Z" finished-at="2018-12-04T21:15:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuit -->
+      </class> <!-- TESTCASES.AppBeforeAfterSuit -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

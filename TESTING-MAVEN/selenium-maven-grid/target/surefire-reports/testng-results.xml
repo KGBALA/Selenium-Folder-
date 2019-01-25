@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="23676" started-at="2018-12-11T17:33:06Z" finished-at="2018-12-11T17:33:30Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="23676" started-at="2018-12-11T17:33:06Z" finished-at="2018-12-11T17:33:30Z">
+      <class name="com.grid.gridTest2">
+        <test-method status="PASS" signature="login()[pri:0, instance:com.grid.gridTest2@6108b2d7]" name="login" duration-ms="20322" started-at="2018-12-11T17:33:06Z" finished-at="2018-12-11T17:33:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- com.grid.gridTest2 -->
+      <class name="com.grid.gridTest">
+        <test-method status="PASS" signature="login()[pri:0, instance:com.grid.gridTest@1554909b]" name="login" duration-ms="3327" started-at="2018-12-11T17:33:27Z" finished-at="2018-12-11T17:33:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- com.grid.gridTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="TESTCASES.AppBeforeAfterTest"/>
+      <class name="TESTCASES.TaskDataProvider"/>
+      <class name="TESTCASES.App"/>
+      <class name="TESTCASES.AppAssertions"/>
+      <class name="TESTCASES.AppDataProvider"/>
+      <class name="TESTCASES.AppBeforeAfterSuit"/>
+      <class name="TESTCASES.AppDependsOnMethods"/>
+      <class name="TESTCASES.AppPriority"/>
+      <class name="TESTCASES.AppBeforeAfterMethod"/>
+      <class name="TESTCASES.Task_TESTNG"/>
+      <class name="TESTCASES2.AppSkipTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

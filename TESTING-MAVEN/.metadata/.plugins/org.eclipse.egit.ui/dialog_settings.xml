@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="2" key="org.eclipse.egit.ui.internal.clone.GitSelectWizardPageWizardSel"/>
+	<list key="RepositorySelectionPage.UsedUris">
+		<item value="https://github.com/KGBALA/bookit-automation-tests"/>
+		<item value="https://github.com/jsbatch9/bookit-automation-tests"/>
+		<item value="https://github.com/KGBALA/bookit-automation-tests.git"/>
+		<item value="https://github.com/jsbatch9/bookit-automation-tests.git"/>
+		<item value="https://github.com/CybertekSchool/parallel-multi-browser-testng-framework.git"/>
+		<item value="https://github.com/CybertekSchool/final-testng-framework.git"/>
+	</list>
+	<list key="EGit.KnownHosts">
+		<item value="git.eclipse.org"/>
+		<item value="bitbucket.org"/>
+		<item value="github.com"/>
+	</list>
+	<section name="GitImportWizard">
+	</section>
+</section>

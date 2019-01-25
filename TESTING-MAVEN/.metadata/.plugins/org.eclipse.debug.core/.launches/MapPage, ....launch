@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.testng.eclipse.launchconfig">
+    <stringAttribute key="org.eclipse.jdt.launching.CLASSPATH_PROVIDER" value="org.eclipse.m2e.launchconfig.classpathProvider"/>
+    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.testng.remote.RemoteTestNG"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="bookit-automation-tests"/>
+    <stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.m2e.launchconfig.sourcepathProvider"/>
+    <mapAttribute key="org.testng.eclipse.ALL_CLASS_METHODS"/>
+    <listAttribute key="org.testng.eclipse.CLASS_TEST_LIST">
+        <listEntry value="src.test.java.com.bookit.utilities.ConfigurationReaderTest"/>
+        <listEntry value="src.test.java.com.bookit.step_definitions.LoginStepDefintions"/>
+        <listEntry value="src.test.java.com.bookit.utilities.Driver"/>
+        <listEntry value="src.test.java.com.bookit.step_definitions.Hooks"/>
+        <listEntry value="src.test.java.com.bookit.utilities.ConfigurationReader"/>
+        <listEntry value="src.test.java.com.bookit.tests.JDBCTest"/>
+        <listEntry value="src.test.java.com.bookit.pages.MapPage"/>
+        <listEntry value="src.test.java.com.bookit.step_definitions.AccountInfoStepDefs"/>
+        <listEntry value="src.test.java.com.bookit.runners.CukesRunner"/>
+        <listEntry value="src.test.java.com.bookit.pages.TopNavigationBar"/>
+        <listEntry value="src.test.java.com.bookit.pages.SignInPage"/>
+        <listEntry value="src.test.java.com.bookit.pages.MySelfPage"/>
+        <listEntry value="src.test.java.com.bookit.step_definitions.ScheduleStepDefitinos"/>
+        <listEntry value="src.test.java.com.bookit.utilities.DBUtils"/>
+    </listAttribute>
+    <listAttribute key="org.testng.eclipse.METHOD_TEST_LIST"/>
+    <listAttribute key="org.testng.eclipse.PACKAGE_TEST_LIST"/>
+    <stringAttribute key="org.testng.eclipse.PRE_DEFINED_LISTENERS" value=""/>
+    <intAttribute key="org.testng.eclipse.TYPE" value="1"/>
+</launchConfiguration>
